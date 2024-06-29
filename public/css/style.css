@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+
+/* Login Page  */
+
+.Main_Container{
+    display: flex;
+    flex-direction: column;
+    margin:0 !important;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.Topbar{
+    background-color: white;
+    margin: 15px 0;
+}
+.Logo{
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+.Login_Container__main{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    flex: 1 ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.login-card{
+    text-align: start;
+}
+.heading-login{
+    text-align: center;
+}
+
+
+/*
+profile 
+*/
+
+.userprofile{
+    float: right;
+    margin-right: 50px;
+}
+
+.main-dashboard{
+    width: 100%;
+    flex: 1;
+    background-color: #f5f5f5;
+}
+
+.custom-card-body{
+    
+    background-color: #f5f5f5;
+}
